@@ -25,6 +25,8 @@ def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
 
 arr = [9, 4, 8, 3, 1, 2, 5]
+arr2 = [9, 4, 8, 3, 1, 2, 5, 6, 7, 8, 10]
 print "Initial Array :",
 printArray(arr)
 quicksort(arr, 0, len(arr) - 1)
+quicksort(arr2, 0, len(arr2) - 1)
